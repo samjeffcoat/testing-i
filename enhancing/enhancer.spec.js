@@ -16,11 +16,6 @@ const weapon2 ={
 }
 
 
-
-
-
-
-
 describe('enhancer.js', () => {
     test('can run the tests', ()=> {
         expect(true).toBe(true);

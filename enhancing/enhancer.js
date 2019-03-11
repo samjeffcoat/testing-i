@@ -28,6 +28,9 @@ function fail(item) {
   // if the items enhancement is 15 or more, the durability of the item is decreased by10
   // if the items enhancement level is greater than 16 the enhancement level decreases by 1
   //if (item.enhancement < 15 item.durability-5)
+
+  let enhancer= item.enhancement;
+  if enhancer< 15
   return { ...item };
 }
 
